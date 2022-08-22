@@ -1,0 +1,36 @@
+{
+    "name": "TEST-GROUP",
+    "people": [
+        {
+            "name": "A",
+            "connections": [{
+                "person 1 name": "A",
+                "person 2 name": "B",
+                "description": "TEST-1"
+            }]
+        },
+        {
+            "name": "B",
+            "connections": [
+                {
+                    "person 1 name": "A",
+                    "person 2 name": "B",
+                    "description": "TEST-1"
+                },
+                {
+                    "person 1 name": "C",
+                    "person 2 name": "B",
+                    "description": "TEST-2"
+                }
+            ]
+        },
+        {
+            "name": "C",
+            "connections": [{
+                "person 1 name": "C",
+                "person 2 name": "B",
+                "description": "TEST-2"
+            }]
+        }
+    ]
+}

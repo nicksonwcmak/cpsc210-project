@@ -1,0 +1,66 @@
+{
+    "name": "My group",
+    "people": [
+        {
+            "name": "Alice",
+            "connections": [
+                {
+                    "person 1 name": "Alice",
+                    "person 2 name": "Bob",
+                    "description": "Friends"
+                },
+                {
+                    "person 1 name": "Carol",
+                    "person 2 name": "Alice",
+                    "description": "Neighbors"
+                }
+            ]
+        },
+        {
+            "name": "Bob",
+            "connections": [
+                {
+                    "person 1 name": "Alice",
+                    "person 2 name": "Bob",
+                    "description": "Friends"
+                },
+                {
+                    "person 1 name": "Evelyn",
+                    "person 2 name": "Bob",
+                    "description": "Classmates"
+                }
+            ]
+        },
+        {
+            "name": "Carol",
+            "connections": [
+                {
+                    "person 1 name": "Carol",
+                    "person 2 name": "Alice",
+                    "description": "Neighbors"
+                },
+                {
+                    "person 1 name": "Dave",
+                    "person 2 name": "Carol",
+                    "description": "Employer/Employee"
+                }
+            ]
+        },
+        {
+            "name": "Dave",
+            "connections": [{
+                "person 1 name": "Dave",
+                "person 2 name": "Carol",
+                "description": "Employer/Employee"
+            }]
+        },
+        {
+            "name": "Evelyn",
+            "connections": [{
+                "person 1 name": "Evelyn",
+                "person 2 name": "Bob",
+                "description": "Classmates"
+            }]
+        }
+    ]
+}
